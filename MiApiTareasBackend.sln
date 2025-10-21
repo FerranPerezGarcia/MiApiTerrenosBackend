@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApiTareasBackend", "MiApiTareasBackend\MiApiTareasBackend.csproj", "{839E06D5-EF1E-4EC3-886E-4E716943AF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{839E06D5-EF1E-4EC3-886E-4E716943AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839E06D5-EF1E-4EC3-886E-4E716943AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839E06D5-EF1E-4EC3-886E-4E716943AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839E06D5-EF1E-4EC3-886E-4E716943AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D56D57E-16F7-4F06-AB4F-A484AB9F94BA}
+	EndGlobalSection
+EndGlobal
