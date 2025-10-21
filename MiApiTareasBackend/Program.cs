@@ -53,6 +53,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API V1");
+    c.RoutePrefix = "swagger"; // Esto hace que sea accesible en /swagger
+});
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
