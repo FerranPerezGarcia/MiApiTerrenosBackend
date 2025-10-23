@@ -1,0 +1,24 @@
+# fly.toml app configuration file generated for miapitareasbackend on 2025-10-23T11:26:17+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'miapitareasbackend'
+primary_region = 'cdg'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  
+[env]
+DB_CONNECTION_STRING = "Host=db.diftholjpkqonphfmwav.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=mEcgmG67xbOLv6cw;SSL Mode=Require;Trust Server Certificate=true"
+
